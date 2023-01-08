@@ -10,6 +10,8 @@ const startGame = (chatId) => {
   return bot.sendMessage(chatId, "Отгадывай!", gameButtons);
 };
 
+//новый
+
 const start = () => {
   bot.on("message", async (message) => {
     const text = message.text;
